@@ -11,7 +11,7 @@ envs:
       type: password
 services:
   - ubuntu:
-      tag: latest
+      tag: ubuntu:latest
       volumes:
         - name: mysql_vol
           mount: /var/lib/mysql/
