@@ -1,7 +1,7 @@
 # Infrastructure as code in for doprax.com
 volumes:
-  - name:  http_root
-    mount: /var/www/html/
+  - name:  local_disk
+    mount: /data/local_disk/
 
 envs:
     - WORDPRESS_DB_HOST: mysql

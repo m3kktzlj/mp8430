@@ -1,0 +1,2 @@
+echo "$WORDPRESS_DB_HOST"
+echo "$MYSQL_PASSWORD"

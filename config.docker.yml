@@ -3,7 +3,7 @@ rpc:
   bind: :8080
 debug: false
 interval: 20
-out_put_path: /srv/bililive
+out_put_path: /data/local_disk
 log:
   out_put_folder: ./
   save_last_log: true
