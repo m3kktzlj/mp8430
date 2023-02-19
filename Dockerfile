@@ -1,7 +1,7 @@
-FROM ubuntu:20.04
+FROM ubuntu:latest
 
 ARG tag
-ENV OUTPUT_DIR="/data/local_disk" \
+ENV OUTPUT_DIR="/app/data" \
     CONF_DIR="/etc/bililive-go" \
     PORT=8080
 

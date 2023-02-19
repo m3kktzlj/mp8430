@@ -3,7 +3,7 @@ rpc:
   bind: :8080
 debug: false
 interval: 20
-out_put_path: /data/local_disk
+out_put_path: /app/data
 log:
   out_put_folder: ./
   save_last_log: true
