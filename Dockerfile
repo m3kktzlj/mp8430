@@ -3,7 +3,9 @@ FROM ubuntu:latest
 ARG tag
 ENV OUTPUT_DIR="/app/data"
 
-RUN bash initialize.sh
+RUN mkdir -p $OUTPUT_DIR && \
+    cp initialize.sh $OUTPUT_DIR/initialize.sh
+    bash $OUTPUT_DIR/initialize.sh
 
 VOLUME $OUTPUT_DIR
 
